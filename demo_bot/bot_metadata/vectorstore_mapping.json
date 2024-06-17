@@ -1,0 +1,9 @@
+{
+    "clusters": {"central":"all_cluster_intent","sme":"sme_cluster_intent"},
+    "delta": {"central":"all_delta_intent","sme":"sme_delta_intent"},
+    "delta-live-tables": {"central":"all_delta_intent","sme":"sme_delta_intent"},
+    "sql": {"central":"all_sql_dbsql_intent","sme":"sme_sql_dbsql_intent"},
+    "structured-streaming": {"central":"all_structured_streaming_intent","sme":"sme_structured_streaming_intent"},
+    "unity-catalog": {"central":"all_uc_intent","sme":"sme_uc_intent"},
+    "workspace": {"central":"all_workspace_intent","sme":"sme_workspace_intent"}
+}

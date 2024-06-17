@@ -1,0 +1,4 @@
+{
+    "vectorstore_path": "demo_bot/data/vectors",
+    "prompt_template_path": "demo_bot/prompt_templates"
+}
