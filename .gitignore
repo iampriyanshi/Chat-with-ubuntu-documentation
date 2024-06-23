@@ -1,0 +1,8 @@
+.venv_11
+.venv_10
+.venv
+venv
+*.pyc
+*.log
+demo_bot/data/vectors/**
+*.ipynb_checkpoints/

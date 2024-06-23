@@ -1,8 +1,9 @@
 from utils.BotConversation import BotConversation as bot_conv
 
-def start_app(store, templates):
+def start_app(store, templates, logger):
     print("Started Demo Bot.\n")
-    ## TODO Complete the logic for managing the chatbot.
+    bot = bot_conv(store, templates, logger)
+    bot.start_conversation()
             
 
 
