@@ -30,8 +30,6 @@ logger.addHandler(fh)
 
 def main():
     print('Initializing Vector store ...\n')
-    # openai.api_key = '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'
-    # openai.api_base = 'https://api.openai.com/v1'
     config_data = init_config()
     vectorstore_path, prompt_template_path = itemgetter('vectorstore_path', 'prompt_template_path')(config_data)
     # embeddings = OpenAIEmbeddings(openai_api_key=openai.api_key) 

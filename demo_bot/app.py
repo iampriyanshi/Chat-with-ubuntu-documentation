@@ -29,8 +29,6 @@ logger.addHandler(fh)
 if __name__ == "__main__":
     try:
         print('Starting Demo Bot ...\n')
-        openai.api_key = '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'
-        openai.api_base = 'https://api.openai.com/v1'
         # os.environ['HUGGINGFACE_HUB_API_TOKEN'] = "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"
         config_data = init_config()
         vectorstore_path, prompt_template_path = itemgetter('vectorstore_path', 'prompt_template_path')(config_data)
